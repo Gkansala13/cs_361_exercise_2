@@ -1,0 +1,1 @@
+ Modify the code to reflect the principles from Clean Code, chapters 3 and 4.
