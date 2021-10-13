@@ -11,6 +11,6 @@ end
 def borg_at_end_of_name(first_last_name)
   first_last_name_swap(first_last_name) << " Borg"
 end
-
-puts "New name: #{first_last_name_swap("Johanna Jackson")}"
-puts "New borg name: #{borg_at_end_of_name("Johanna Jackson")}"
+@name="Johanna Jackson"
+puts "New name: #{first_last_name_swap(@name)}"
+puts "New borg name: #{borg_at_end_of_name(@name)}"
